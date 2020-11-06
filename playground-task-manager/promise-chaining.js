@@ -1,6 +1,6 @@
-require('../src/db/mongoose')
-const User = require('../src/models/user')
-const { findByIdAndUpdate, update } = require('../src/models/user')
+require('../../task-manager/src/db/mongoose')
+const User = require('../../task-manager/src/models/user')
+const { findByIdAndUpdate, update } = require('../../task-manager/src/models/user')
 
 // User.findByIdAndUpdate('5f35bac9fa7d6561736dbdb0', { age: 1}).then((user) => {
 //     console.log(user)
